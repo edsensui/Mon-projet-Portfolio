@@ -1,0 +1,302 @@
+header{
+    background-color:rgb(105, 139, 241);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+    Z-index: 5;
+}
+
+header nav{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.link{
+    list-style: none;
+display:flex;
+gap: 40px;
+}
+.link li a{
+ color:black;
+ font-size: 20px;
+ 
+}
+/*logo*/
+.logo h2{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link li a:hover{
+color: orange;
+border-bottom: solid 2px rgb(16, 240, 248);
+transition: 0.5s ease;
+}
+#home{
+    background-color: rgb(218, 218, 187);
+   display: flex; 
+   justify-content:start;
+   gap: 20px;
+   padding:20px;
+   height: 100%;
+
+}
+
+/*Image*/
+.banner-img img{
+width: 400px; ;
+height: 500px;
+background-size: cover;
+border-radius: 15px;
+padding: 30px;
+box-shadow:100cap rgb(0, 0, 0, 0.4);
+animation: coming linear 1s;
+
+}
+#NOMC{
+color: brown; 
+font-size:40px;   
+}
+.NO{
+font-size:25px;
+}
+
+.banner-text{
+    align-items: center;
+    justify-content:flex-start;
+}
+
+
+/*A propos de Moi*/
+  
+/*Formations*/
+#Formations{
+    font-size: 20px;
+}
+
+.Forma{
+    font-weight: 900;
+}
+#Expériences{
+
+    font-size: 20Px;
+}
+#Compétences{
+    font-size: 20px;
+}
+
+#about{
+    font-size: 20px;
+}
+#Services{
+    font-size: 20px;
+}
+
+    #Contact{
+       
+        padding: 5px 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(105, 139, 241);
+
+
+    }
+.form-data{
+    width:100%;
+}
+.input_div{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+.form-data form input, .form-data form textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: solid 1px rgb(105, 139, 241);
+    transition: 0,5s;
+}
+
+.tabhome p a{
+ color: black;
+border-color: 2Opx;
+box-shadow:black;
+font-size: 20px;
+}
+.tabhome p a:hover{
+    color:  orange;
+    transition: 1s ease;
+}
+.tabhome{
+background-color:brown;
+}
+.footer-section{
+ background-color:rgb(105, 139, 241);
+ display: flex;
+ flex-direction: row;
+ font-size:20px;
+ font-size:18px; 
+ font-weight: 900;
+ justify-content: flex-start;
+ align-content: flex-start;
+gap: 20px;
+}
+#bbb{
+
+    background-size: cover;
+    background-repeat:no-repeat;
+
+}
+.propos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Foot{
+    background-color: brown;
+    font-size:17px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+#Allsection{
+    background-color:rgb(105, 139, 241);
+}
+.about_content div{
+    background-color: white;
+    box-shadow: 0 2Px 5px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width:500px;
+    border-radius: 15px;
+    margin: 20px;
+
+}
+.about_content{
+    display:flex;
+    justify-content: flex-end;
+}
+.imgg{
+display: flex;
+justify-content: space-between ;
+margin: 4vh;
+
+}
+.imgg div{
+margin: 4vh;
+    background-color: white;
+    width:100vh;
+    padding: 5vh;
+
+}
+.imgg2{
+    display: flex;
+    justify-content: space-between ;
+    margin: 1vh; 
+    padding: 3vh;
+}
+.imgg2 div{
+    margin: 4vh;
+    background-color: white;
+    width:100vh;
+    padding: 1vh;  
+}
+.imgg2 img{
+    width: 113vh;
+}
+.imgg3{
+    display: flex;
+    justify-content: space-between ;
+    margin: 1vh; 
+    padding: 3vh; 
+}
+.imgg3 div{
+    margin: 4vh;
+    background-color: white;
+    width:100vh;
+    padding: 1vh;   
+}
+.imgg3 img{
+    width: 113vh;
+}
+.imgg4{
+    display: flex;
+    justify-content: space-between ;
+    margin: 1vh; 
+    padding: 3vh;
+}
+.imgg4 div{
+    margin: 4vh;
+    background-color: white;
+    width:100vh;
+    padding: 1vh; 
+}
+.imgg4 img{
+    width: 113vh;
+}
+.imgg5{
+    display: flex;
+    justify-content: space-between ;
+    margin: 1vh; 
+    padding: 3vh;
+}
+.imgg5 div{
+    margin: 4vh;
+    background-color: white;
+    width:100vh;
+    padding: 1vh; 
+}
+.imgg5 img{
+    width: 113vh;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero{
+    background-image: url(WB.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroBack h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color:orangered;
+}
+.heroBack p{
+ font-size:40px ;
+ color:orangered;
+ font-family: 'Times New Roman', Times, serif;   
+}
+.Fab{
+    background-color: white;
+
+    transition: 1s ease;
+}
+.Phone{
+    height: 20px;
+    width: 20px;
+}
+.Phone2{
+width: 25px;
+height: 25px;
+}
+.style{
+list-style:symbols()
+}
+
+
+@media screen and(max-width :10000px) {
+    
+}
