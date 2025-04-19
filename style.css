@@ -292,11 +292,10 @@ margin: 4vh;
 width: 25px;
 height: 25px;
 }
-.style{
-list-style:symbols()
-}
 
 
-@media screen and(max-width :10000px) {
-    
+@media screen and (max-width:100%) {
+ *{
+    width:100% ;
+ } 
 }
