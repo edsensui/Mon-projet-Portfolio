@@ -293,9 +293,18 @@ width: 25px;
 height: 25px;
 }
 
-
-@media screen and (max-width:100%) {
- *{
-    width:100% ;
- } 
+/*Mobile*/
+@media (max-width:767px) {
+    *{
+        padding: 10px;
+    }
 }
+/*PC*/
+@media (min-width:1024px){
+    *{
+        padding: 3Opx;
+    }
+}
+ 
+
+ 
